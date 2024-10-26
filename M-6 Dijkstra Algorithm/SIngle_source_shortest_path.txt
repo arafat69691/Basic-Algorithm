@@ -1,0 +1,16 @@
+Single source shortest path
+---------------------------
+
+BFS: 
+        Possible:
+                1.Unweighted graph
+                2.Undirected+Directed
+                3.Positive Value
+        Impossible:
+                1.weighted
+                2.Negetive Node + Negetive edge weight
+                
+            Solution
+            --------
+                    1.Dijkstra(weighted edge)
+                    2.Bellman-Ford algorithm it can be Possible (Negetive edge weight)
